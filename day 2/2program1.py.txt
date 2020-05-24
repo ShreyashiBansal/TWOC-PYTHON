@@ -1,0 +1,42 @@
+n=int(input("enter the no."))
+num=n
+ #even or odd
+if n%2==0:
+   print("even number")
+else:
+    print("odd number")
+     
+#prime number
+flag=0
+for i in range(2,n):
+    if n%i==0:
+        flag=1
+        
+if flag==0:
+    print("prime number")
+else:
+    print("not prime number")
+    
+#pallidrome
+sum=0
+while num>0:
+    t=num%10
+    sum=sum*10 + t
+    num=num//10
+    
+if sum==n:
+    print("palindrome")
+else:
+    print("not palindrome")
+    
+#armstrong
+num2 = n
+sum = 0
+while num2 != 0:
+    t = num2 % 10
+    sum = sum + (t*t*t)
+    num2= num2 // 10
+if sum == n:
+    print("Armstrong number")
+else:
+    print("not Armstrong number")
