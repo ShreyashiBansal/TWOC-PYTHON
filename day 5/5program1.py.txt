@@ -1,0 +1,3 @@
+s = input("Enter the number: ")
+new=s.replace('0','5')
+print("Number after replacement: "+ str(new))
