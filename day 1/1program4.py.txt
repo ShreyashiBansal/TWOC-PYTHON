@@ -1,0 +1,8 @@
+CP=int(input('Enter the cost price'))
+SP=int(input('Enter the selling price'))
+print ('Profit is:',(SP-CP))
+b=(5*(CP/100))
+print('In order to increse the profit by 5% Profit will be',b)
+c=(SP-CP+b)
+print('Increased profit is ', c)
+print('The selling price would be', (CP+c))

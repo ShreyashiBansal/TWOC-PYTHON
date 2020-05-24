@@ -1,0 +1,7 @@
+print("enter the no.")
+
+n=int(input())
+
+x=n**(1/2)
+
+print(x)
