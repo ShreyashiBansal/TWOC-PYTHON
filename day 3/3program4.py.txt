@@ -1,0 +1,11 @@
+n=int(input("Enter the length of the list"))
+l=[]
+final=[]
+print("Enter the element")
+for i in range(n+1):
+    d=input()
+    l.append(d)
+for j in range(n+1):
+    if l[j] not in final:
+        final.append(l[j])
+print("After removing the duplicate:  ",final)

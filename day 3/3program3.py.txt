@@ -1,0 +1,6 @@
+str=input("Enter string: ")
+c=""
+for i in range(0,len(str)):
+    if str[i] not in c:
+        c=c+str[i]
+print("String after removed duplicates: ",c)

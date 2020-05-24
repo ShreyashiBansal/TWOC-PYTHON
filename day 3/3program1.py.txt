@@ -1,0 +1,5 @@
+t=str(input("enter"))
+
+txt=t[::-1]
+
+print(txt)

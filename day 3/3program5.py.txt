@@ -1,0 +1,23 @@
+a=[]
+b=[]
+c=[]
+n1=int(input("Enter the number of element in list 1:"))
+n2=int(input("Enter the number of element  in list 2:"))
+print("Enter the element of list 1:")
+for i in range(n1):
+    d=input()
+    a.append(d)
+print("Enter the element of list 2:")
+for j in range(n2):
+    e=input()
+    b.append(e)
+print("INTERSECTION:")
+for i in range(n1):
+    if a[i] not in c:
+        c.append(a[i])
+        
+for j in range(n2):
+    if b[j] not in c:
+        c.append(b[j])
+        
+print(c)
