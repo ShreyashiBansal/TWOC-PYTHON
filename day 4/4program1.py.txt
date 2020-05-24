@@ -1,0 +1,9 @@
+n=int(input("enter the size"))
+print("Enter the elements")
+arr=[]
+for i in range(n):
+  arr.append(input())
+
+arr=tuple(arr)
+element=input("enter the element whose occurence is to be found")
+print("the occurence of the element is ",arr.count(element))

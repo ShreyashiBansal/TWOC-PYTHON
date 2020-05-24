@@ -1,0 +1,13 @@
+n=int(input("enter the size"))
+a=dict()
+for i in range(n):
+  key=input("enter the key ")
+  value=input("enter the value ")
+  a[key]=value
+
+final=dict()
+for key,value in a.items():
+  if value not in final.values():
+     final[key]=value
+
+print("The dicionary without the duplicate element ",final)
